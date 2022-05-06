@@ -1,14 +1,30 @@
-[[christianity]]
-  name = "Introduction"
-  weight = 10
-  identifier = "introduction-christianity"
-  url = "/christianity/introduction-christianity/"
+[[islam]]
+  name = "Qur'an"
+  weight = 70
+  identifier = "islam"
+  url = "/islam/"
 
 [[islam]]
-  name = "Introduction"
+  name = "Overview"
+  weight = 60
+  identifier = "islam-overview"
+  url = "/islam/overview"
+
+[[christianity]]
+  name = "Christianity"
+  weight = 60
+  identifier = "christianity"
+  url = "/christianity/"
+
+[[main]]
+  name = "Islam"
+  url = "/islam/overview/islam_test0"
   weight = 10
-  identifier = "introduction-islam"
-  url = "/islam/introduction/"
+
+[[main]]
+  name = "Christianity"
+  url = "/christianity/christianity_test"
+  weight = 10
 
 [[docs]]
   name = "Prologue"
@@ -45,16 +61,6 @@
   url = "/docs/prologue/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
   weight = 10
-
-[[main]]
-  name = "Christianity"
-  url = "/christianity/introduction-christianity/index/"
-  weight = 20
-
-[[main]]
-  name = "Islam"
-  url = "/islam/introduction/index/"
-  weight = 20
 
 # [[main]]
 #   name = "Tutorial"

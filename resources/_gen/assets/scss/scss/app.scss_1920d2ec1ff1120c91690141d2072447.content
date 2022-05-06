@@ -10485,7 +10485,8 @@ $border-dark: darken($body-bg-dark, 2.5%);
 .alert-icon {
   margin-right: 0.75rem; }
 
-.docs main .alert {
+.docs main .alert
+.islam .christianity .alert {
   margin: 2rem -1.5rem; }
 
 .alert .alert-link {

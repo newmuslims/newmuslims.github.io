@@ -1,5 +1,5 @@
-baseurl = "https://newmuslims.github.io"
-canonifyURLs = true
+baseurl = "https://doks.netlify.app/"
+canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
