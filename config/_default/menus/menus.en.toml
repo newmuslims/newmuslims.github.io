@@ -4,6 +4,12 @@
   identifier = "introduction-christianity"
   url = "/christianity/introduction-christianity/"
 
+[[islam]]
+  name = "Introduction"
+  weight = 10
+  identifier = "introduction-islam"
+  url = "/islam/introduction/"
+
 [[docs]]
   name = "Prologue"
   weight = 10
@@ -43,6 +49,11 @@
 [[main]]
   name = "Christianity"
   url = "/christianity/introduction-christianity/index/"
+  weight = 20
+
+[[main]]
+  name = "Islam"
+  url = "/islam/introduction/index/"
   weight = 20
 
 # [[main]]
