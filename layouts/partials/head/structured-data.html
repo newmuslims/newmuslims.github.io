@@ -135,7 +135,7 @@
         }{{ end }}]
     },
 
-    {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "tutorial") (eq .Section "showcase")) -}}
+    {{ if and (eq .Kind "page") (or (eq .Section "blog") (eq .Section "docs") (eq .Section "islam") (eq .Section "christianity") (eq .Section "showcase")) -}}
     {
       "@context": "https://schema.org",
       "@graph": [
@@ -200,6 +200,8 @@
           "@id": {{ print .Permalink "#/schema/image/2" }},
           "url": {{ $.Scratch.Get "primaryImage" }},
           "contentUrl": {{ $.Scratch.Get "primaryImage" }},
+          "width": {{ .Site.Params.schemaImageWidth }},
+          "height": {{ .Site.Params.schemaImageHeight }},
           "caption": "{{ .Title }}"
         }
       ]

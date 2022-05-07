@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+lead: "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
@@ -9,7 +9,7 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 100
+weight: 010
 toc: true
 ---
 
@@ -17,17 +17,17 @@ toc: true
 
 There are two main ways to get started with Doks:
 
-### Tutorial
+### islam
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." >}}
+{{< alert icon="👉" text="The islam is intended for novice to intermediate users." />}}
 
-Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
+Step-by-step instructions on how to start a new Doks project. {{< section-last section="islam" text="islam →">}}
 
 ### Quick Start
 
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." >}}
+{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
 
-One page summary of how to start a new Doks project. [Quick Start →]({{< ref "quick-start" >}})
+One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
 
 ## Go further
 
@@ -35,24 +35,24 @@ Recipes, Reference Guides, Extensions, and Showcase.
 
 ### Recipes
 
-Get instructions on how to accomplish common tasks with Doks. [Recipes →](https://getdoks.org/docs/recipes/project-configuration/)
+Get instructions on how to accomplish common tasks with Doks. {{< section-last section="recipes" text="Recipes →">}}
 
 ### Reference Guides
 
-Learn how to customize Doks to fully make it your own. [Reference Guides →](https://getdoks.org/docs/reference-guides/security/)
+Learn how to customize Doks to fully make it your own. {{< section-last section="reference-guides" text="Reference Guides →">}}
 
 ### Extensions
 
-Get instructions on how to add even more to Doks. [Extensions →](https://getdoks.org/docs/extensions/add-google-fonts/)
+Get instructions on how to add even more to Doks. {{< section-last section="extensions" text="Extensions →">}}
 
 ### Showcase
 
-See what others have build with Doks. [Showcase →](https://getdoks.org/showcase/parietal-numerics-documentation/)
+See what others have build with Doks. [Showcase →]({{< relref "showcase" >}})
 
 ## Contributing
 
-Find out how to contribute to Doks. [Contributing →](https://getdoks.org/docs/contributing/how-to-contribute/)
+Find out how to contribute to Doks. {{< section-last section="contributing" text="Contributing →">}}
 
 ## Help
 
-Get help on Doks. [Help →]({{< ref "how-to-update" >}})
+Get help on Doks. {{< section-last section="help" text="Help →">}}

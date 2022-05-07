@@ -5,9 +5,12 @@
   <ul class="list-unstyled">
     {{ range .Children -}}
       {{- $active := or ($currentPage.IsMenuCurrent "islam" .) ($currentPage.HasMenuCurrent "islam" .) -}}
-      {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-      <li><a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{- $active = or $active (eq .Name $currentPage.Title) -}}
+      <li><a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
     {{ end -}}
   </ul>
   {{ end -}}
 {{ end -}}
+<!--
+<h3 class="sidebar-link"><a href="/docs/help/faq/#can-i-get-support">Get Support →</a></h3>
+-->

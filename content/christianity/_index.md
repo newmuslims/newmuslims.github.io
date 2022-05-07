@@ -1,9 +1,8 @@
 ---
-title : "Christianity"
-description: "Docs Doks."
-lead: ""
-date: 2020-10-06T08:48:23+00:00
-lastmod: 2020-10-06T08:48:23+00:00
+title: "Tutorial"
+description: ""
+date: 2020-11-17T19:48:27+01:00
+lastmod: 2020-11-17T19:48:27+01:00
 draft: false
 images: []
 ---

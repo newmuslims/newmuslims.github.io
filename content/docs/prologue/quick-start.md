@@ -9,13 +9,18 @@ images: []
 menu:
   docs:
     parent: "prologue"
-weight: 110
+weight: 020
 toc: true
 ---
 
 ## Requirements
 
-Doks uses npm to install dependencies and run commands. Installing npm is pretty simple. Download and install [Node.js](https://nodejs.org/) (it includes npm) for your platform.
+- [Git](https://git-scm.com/) — latest source release
+- [Node.js](https://nodejs.org/) — latest LTS version or newer
+
+{{< details "Why Node.js?" >}}
+Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
+{{< /details >}}
 
 ## Start a new Doks project
 
@@ -23,15 +28,33 @@ Create a new site, change directories, install dependencies, and start developme
 
 ### Create a new site
 
-{{< btn-copy text="git clone https://github.com/h-enk/doks.git my-doks-site" >}}
+Doks is available as a child theme and a starter theme.
+
+#### Child theme
+
+- Intended for novice to intermediate users
+- Intended for minor customizations
+- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+
+```bash
+git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
+```
+
+#### Starter theme
+
+- Intended for intermediate to advanced users
+- Intended for major customizations
+- [Easily update npm packages]({{< relref "how-to-update" >}})
 
 ```bash
 git clone https://github.com/h-enk/doks.git my-doks-site
 ```
 
-### Change directories
+{{< details "Help me choose" >}}
+Not sure which one is for you? Pick the child theme.
+{{< /details >}}
 
-{{< btn-copy text="cd my-doks-site" >}}
+### Change directories
 
 ```bash
 cd my-doks-site
@@ -39,15 +62,11 @@ cd my-doks-site
 
 ### Install dependencies
 
-{{< btn-copy text="npm install" >}}
-
 ```bash
 npm install
 ```
 
 ### Start development server
-
-{{< btn-copy text="npm run start" >}}
 
 ```bash
 npm run start
@@ -57,4 +76,4 @@ Doks will start the Hugo development webserver accessible by default at `http://
 
 ## Other commands
 
-Doks comes with commands for common tasks. [Commands →]({{< ref "commands" >}})
+Doks comes with commands for common tasks. [Commands →]({{< relref "commands" >}})
