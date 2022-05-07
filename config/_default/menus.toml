@@ -50,15 +50,15 @@
   url = "/christianity/introduction/"
   weight = 25
 
-[[main]]
-  name = "Islam"
-  url = "/islam/introduction/"
-  weight = 20
+# [[main]]
+#   name = "Islam"
+#   url = "/islam/introduction/"
+#   weight = 20
 
-[[main]]
-  name = "Judaism"
-  url = "/judaism/introduction/"
-  weight = 30
+# [[main]]
+#   name = "Judaism"
+#   url = "/judaism/introduction/"
+#   weight = 30
 
 # [[main]]
 #   name = "Showcase"
@@ -142,23 +142,23 @@
 #   url = "https://opencollective.com/doks"
 #   weight = 40
 
-[[islam]]
-  name = "islam"
-  weight = 10
-  identifier = "islam"
-  url = "/islam/"
+# [[islam]]
+#   name = "islam"
+#   weight = 10
+#   identifier = "islam"
+#   url = "/islam/"
 
 [[christianity]]
-  name = "christianity"
+  name = "introduction"
   weight = 20
   identifier = "christianity"
   url = "/christianity/"
 
-[[judaism]]
-  name = "Judaism"
-  weight = 30
-  identifier = "judaism"
-  url = "/judaism/"
+# [[judaism]]
+#   name = "Judaism"
+#   weight = 30
+#   identifier = "judaism"
+#   url = "/judaism/"
 
 [[secondary]]
   name = "Get Support"
