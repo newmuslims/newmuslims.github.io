@@ -1,49 +1,49 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "Recipes"
-  weight = 20
-  identifier = "recipes"
-  url = "/docs/recipes/"
-
-[[docs]]
-  name = "Reference Guides"
-  weight = 30
-  identifier = "reference-guides"
-  url = "/docs/reference-guides/"
-
-[[docs]]
-  name = "Extensions"
-  weight = 40
-  identifier = "extensions"
-  url = "/docs/extensions/"
-
-[[docs]]
-  name = "Contributing"
-  weight = 50
-  identifier = "contributing"
-  url = "/docs/contributing/"
-
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+# [[docs]]
+#   name = "Prologue"
+#   weight = 10
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
 
 # [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
+#   name = "Recipes"
+#   weight = 20
+#   identifier = "recipes"
+#   url = "/docs/recipes/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
-  weight = 10
+# [[docs]]
+#   name = "Reference Guides"
+#   weight = 30
+#   identifier = "reference-guides"
+#   url = "/docs/reference-guides/"
+
+# [[docs]]
+#   name = "Extensions"
+#   weight = 40
+#   identifier = "extensions"
+#   url = "/docs/extensions/"
+
+# [[docs]]
+#   name = "Contributing"
+#   weight = 50
+#   identifier = "contributing"
+#   url = "/docs/contributing/"
+
+# [[docs]]
+#   name = "Help"
+#   weight = 60
+#   identifier = "help"
+#   url = "/docs/help/"
+
+# # [[docs]]
+# #   name = "Lorem"
+# #   weight = 70
+# #   identifier = "lorem"
+# #   url = "/docs/lorem/"
+
+# [[main]]
+#   name = "Docs"
+#   url = "/docs/prologue/introduction/"
+#   weight = 10
 
 [[main]]
   name = "Christianity"
@@ -56,38 +56,43 @@
   weight = 20
 
 [[main]]
-  name = "Showcase"
-  url = "/showcase/"
+  name = "Judaism"
+  url = "/judaism/introduction/"
   weight = 30
+
+# [[main]]
+#   name = "Showcase"
+#   url = "/showcase/"
+#   weight = 30
 
 [[main]]
   name = "Blog"
   url = "/blog/"
   weight = 40
 
-[[main]]
-  name = "Community"
-  url = "https://github.com/h-enk/doks/discussions"
-  weight = 50
-  identifier = "community"
+# [[main]]
+#   name = "Community"
+#   url = "https://github.com/h-enk/doks/discussions"
+#   weight = 50
+#   identifier = "community"
 
-[[main]]
-  name = "Contribute"
-  weight = 10
-  url = "/docs/contributing/how-to-contribute/"
-  parent = "community"
+# [[main]]
+#   name = "Contribute"
+#   weight = 10
+#   url = "/docs/contributing/how-to-contribute/"
+#   parent = "community"
 
-[[main]]
-  name = "Discussions"
-  weight = 20
-  url = "https://github.com/h-enk/doks/discussions"
-  parent = "community"
+# [[main]]
+#   name = "Discussions"
+#   weight = 20
+#   url = "https://github.com/h-enk/doks/discussions"
+#   parent = "community"
 
-[[main]]
-  name = "Open Collective"
-  weight = 30
-  url = "https://opencollective.com/doks"
-  parent = "community"
+# [[main]]
+#   name = "Open Collective"
+#   weight = 30
+#   url = "https://opencollective.com/doks"
+#   parent = "community"
 
 # [[main]]
 #   name = "Get Started"
@@ -145,9 +150,15 @@
 
 [[christianity]]
   name = "christianity"
-  weight = 10
+  weight = 20
   identifier = "christianity"
   url = "/christianity/"
+
+[[judaism]]
+  name = "Judaism"
+  weight = 30
+  identifier = "judaism"
+  url = "/judaism/"
 
 [[secondary]]
   name = "Get Support"
