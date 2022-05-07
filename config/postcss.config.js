@@ -25,7 +25,7 @@ module.exports = {
         'container-fluid',
         ...whitelister([
           './assets/scss/components/_alerts.scss',
-          './assets/scss/components/_carbonads.scss',
+          // './assets/scss/components/_carbonads.scss',
           './assets/scss/components/_buttons.scss',
           './assets/scss/components/_code.scss',
           './assets/scss/components/_syntax.scss',
